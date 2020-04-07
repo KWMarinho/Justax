@@ -60,6 +60,7 @@ hr.divider {
   font-size: 0.9rem;
   padding: 0.75rem 0;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #FF4654;
 }
@@ -81,14 +82,27 @@ hr.divider {
   #mainNav .navbar-nav .nav-item .nav-link {
     /*color: rgba(255, 255, 255, 0.7);*/
 	color: #6c757d;
-    padding: 0 1rem;
+	height: 35px;
+	padding-top: 5px;
+	padding-left: 15px;
+	  padding-right: 15px;
+  }
+  #mainNav .btn-sm {
+	color: #FF4654 !important;
+	background-color: transparent;
+	border: solid 2px #FF4654;
+    border-radius: 10rem;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+  }
+  #mainNav .btn-sm:hover {
+    background-color: #FF4654;
+	color: #fff !important;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #FF4654;
   }
-  #mainNav .navbar-nav .nav-item:last-child .nav-link {
-    padding-right: 0;
-  }
+
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: rgba(250,250,250,0.95);
@@ -103,6 +117,14 @@ hr.divider {
     color: #101823;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #FF4654;
+  }
+	
+	#mainNav .btn-sm {
+    color: #101823;
+  }
+	
+	#mainNav .btn-sm:hover {
     color: #FF4654;
   }
 }
@@ -602,3 +624,5 @@ header.masthead h1 {
   text-align: center;
   padding-top: 30px;
 }
+
+/**** Estilo da pagina 'Login' ****/
